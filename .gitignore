@@ -1,0 +1,25 @@
+# Ignore Node.js dependencies
+**/node_modules/
+
+# Ignore React build output
+/frontend/build/
+
+# Ignore backend build (if using TypeScript or bundling)
+/backend/dist/
+
+# Environment variables
+**/.env
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
